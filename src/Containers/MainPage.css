@@ -1,0 +1,59 @@
+.app{
+  align-items: center;
+  display: block;
+}
+.mainpage {
+  width: 85%;
+  margin-left:50px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+Input {
+  width: 80%;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button{
+  font-size: 20px;
+  font-weight: bold;
+  width: 20%;
+  background-color: rgb(24, 133, 133);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0 0 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(24, 133, 133);
+}
+label{
+  font-size: 17px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+.header{
+  position: sticky;
+  top:0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(95, 223, 223);
+  padding-top:3px;
+  padding-bottom: 3px;
+  border-color: rgb(48, 18, 18);
+  border-width: 0 0 5px 0;
+  margin-bottom: 20px;
+}
